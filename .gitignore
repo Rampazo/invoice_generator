@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.invoice_webhook_env/
+invoice_webhook_env/
+venv/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+webhook_events.log
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python dependency files
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# MyPy, Pylint, etc.
+.mypy_cache/
+.pylint.d/
+
+# ngrok files
+ngrok.log
+ngrok.yml
